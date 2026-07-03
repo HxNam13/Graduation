@@ -7,7 +7,7 @@ const $ = (s, c = document) => c.querySelector(s);
 const $$ = (s, c = document) => [...c.querySelectorAll(s)];
 
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzyjoI_gzb8iWkOTx1VSZu7Dx5tGyBV8FG60bgTPxbJvUt5WPnTvy8pYAonwD037012/exec';
-const EVENT = new Date('2026-07-05T11:00:00+07:00');
+const EVENT = new Date('2026-07-05T10:30:00+07:00');
 
 /* ---- Toast ---- */
 function toast(msg) {
